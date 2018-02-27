@@ -1,5 +1,6 @@
 ---
 title: 留言板
+no_word_count: true
 date: 2018-02-26 18:23:20
 ---
 

@@ -1,5 +1,6 @@
 title: hexo 博客小功能添加-评论、相册、字数统计...
-date: 2018.02.27 20:41:25
+date: 2028.02.27 20:41:25
+top: true
 categories:
 - 技术分享
 tags:

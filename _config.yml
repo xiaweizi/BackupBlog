@@ -75,6 +75,8 @@ pagination_dir: page
 theme: yelee
 
 live2d:
+  enable: true
+  scriptFrom: local
   model:
     scale: 1
     hHeadPos: 0.5
@@ -88,10 +90,9 @@ live2d:
     vOffset: -20
   mobile:
     show: false
-    scale: 0.2
   react:
-    opacityDefault: 0.3
-    opacityOnHover: 0.3
+    opacityDefault: 0.5
+    opacityOnHover: 0.2
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

@@ -3,7 +3,7 @@
         $(document).ready(function() {
             var iPad = window.navigator.userAgent.indexOf('iPad');
             if (iPad > -1 || $(".left-col").css("display") === "none") {
-                var bgColorList = ["#9db3f4", "#414141", "#e5a859", "#f5dfc6", "#c084a0", "#847e72", "#cd8390", "#996731"];
+                var bgColorList = ["#e040fb", "#7c4dff", "#3d5afe", "#0288d1", "#0091ea", "#00e5ff", "#1de9b6", "#14e715", "#14e715", "#76ff03", "#ffea00", "#ff3d00", "#ff2d6f"];
                 var bgColor = Math.ceil(Math.random() * (bgColorList.length - 1));
                 $("body").css({"background-color": bgColorList[bgColor], "background-size": "cover"});
             }

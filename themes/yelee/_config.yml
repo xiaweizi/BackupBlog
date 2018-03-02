@@ -185,13 +185,14 @@ tagcloud: true
 
 # Blogroll, Link exchange | 友情链接
 friends:
+  玩Android: http://www.wanandroid.com/
   WeaponApp: https://github.com/G-Joker/WeaponApp
   WeaponZhi: http://weaponzhi.online
-  wanandroid: http://www.wanandroid.com/
+
 #friends: false
 
 #是否开启“关于我”。
-aboutme: 胖子都是潜力股！
+aboutme: false
 #aboutme: false
 
 # Open link in a new tab | 是否在新窗口打开链接

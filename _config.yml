@@ -94,6 +94,12 @@ live2d:
     opacityDefault: 0.5
     opacityOnHover: 0.2
 
+admin:
+  username: xiaweizi
+  password_hash: $2a$10$1oRQXNcwaz98/Fri4ybrpOzwoWFJ.R9momquLwm69spwXpSt2fBnG
+  secret: huanhuan
+  deployCommand: './hexo-deploy.sh'
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:

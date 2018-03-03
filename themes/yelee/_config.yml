@@ -60,7 +60,7 @@ subnav:
   #niconico: ""
   #Quora: ""
   #Facebook: "#"
-  Google: "https://plus.google.com/103042428376296293680?hl=zh-CN"
+  # Google: "https://plus.google.com/103042428376296293680?hl=zh-CN"
   #Twitter: "#"
   #LinkedIn: "#"
   QQ: "http://wpa.qq.com/msgrd?v=3&uin=1012126908&site=qq&menu=yes"
@@ -133,7 +133,7 @@ color_scheme:
 highlight_style:
   on: true
   inline_code: 2  # Value: 0 - 9 可选
-  code_block: 2  # Value: 0 - 4 
+  code_block: 4  # Value: 0 - 4 
   # Set inline_code to style highlight text
   # Chose a highlight theme for code block
   # 通过 inline_code 切换内置文本高亮样式
@@ -146,13 +146,13 @@ blockquote_style:
 
 # Headings Style | 标题风格
 ## 0-Yelee, 1-Yilia, 2-GitHub
-heading_style: 0 # Value: 0 - 2
+heading_style: 2 # Value: 0 - 2
 
 ## List style type (ul) | 无序列表项标记样式
 list_style: 0  # value: 0 - 12 可选
 
 # 左边栏宽度 px
-left_col_width: 420
+left_col_width: 380
 
 # Copyright info. of post | 文末版权信息
 copyright: true

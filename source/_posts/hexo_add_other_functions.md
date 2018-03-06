@@ -1,13 +1,11 @@
 title: hexo 博客小功能添加-评论、相册、字数统计...
-date: 2028.02.27 20:41:25
+date: 2018.02.27 20:41:25
 top: true
 categories:
 - 技术分享
 tags:
 - hexo
 ---
-
-<center><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=486218073&auto=1&height=66"></iframe></center>
 
 
 ## 前言

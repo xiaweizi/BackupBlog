@@ -6,7 +6,7 @@ tags:
   - 读书笔记
 categories:
   - Thinking In Java 读书笔记
-abbrlink: 46955
+abbrlink: thinking_in_java_6
 date: 1994-03-05 10:12:00
 ---
 ## 前言

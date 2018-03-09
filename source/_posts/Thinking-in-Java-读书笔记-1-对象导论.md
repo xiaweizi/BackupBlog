@@ -6,7 +6,7 @@ categories:
 tags:
   - Thinking In Java
   - 读书笔记
-abbrlink: 12284
+abbrlink: thinking_in_java_1
 ---
 
 ## 前言

@@ -6,7 +6,7 @@ categories:
 tags:
   - Thinking In Java
   - 读书笔记
-abbrlink: 36989
+abbrlink: thinking_in_java_3
 ---
 
 **在最底层，Java 中的数据是通过使用操作符来操作的。**

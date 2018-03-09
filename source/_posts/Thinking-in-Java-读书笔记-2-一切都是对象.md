@@ -6,7 +6,7 @@ categories:
 tags:
   - Thinking In Java
   - 读书笔记
-abbrlink: 28343
+abbrlink: thinking_in_java_2
 ---
 
 > 如果我们说另一种不同的语言，那么我们就会觉得一个有些不同的世界。

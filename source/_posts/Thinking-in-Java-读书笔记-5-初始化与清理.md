@@ -5,7 +5,7 @@ categories:
 tags:
   - Thinking In Java
   - 读书笔记
-abbrlink: 35035
+abbrlink: thinking_in_java_5
 date: 1994-03-02 16:25:00
 ---
 > 随着计算机革命的发展，不安全的编码方式逐渐成为编程代价高昂的主因之一。

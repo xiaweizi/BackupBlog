@@ -1,9 +1,11 @@
+---
 title: Kotlin学习笔记
-date: 2017.09.04 20:46:25
+date: '2017.09.04 20:46:25'
 categories:
-- 自学笔记
+  - 自学笔记
 tags:
-- Kotlin
+  - Kotlin
+abbrlink: 40024
 ---
 
 > 项目未来可能需要使用`kotlin`开发，所以特此记录一下学习笔记，仅供参考，方便后期查询。已同步到`GitHub`上：[KotlinTest](https://github.com/xiaweizi/KotlinTest.git)

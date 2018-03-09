@@ -1,3 +1,4 @@
+---
 title: Thinking-in-Java 读书笔记-6-访问权限控制
 author: 下位子
 tags:
@@ -5,6 +6,7 @@ tags:
   - 读书笔记
 categories:
   - Thinking In Java 读书笔记
+abbrlink: 46955
 date: 1994-03-05 10:12:00
 ---
 ## 前言

@@ -1,9 +1,11 @@
+---
 title: 高大上的侧滑菜单DrawerLayout，解决了不能全屏滑动的问题
-date: 2017.01.07 20:46:25
+date: '2017.01.07 20:46:25'
 categories:
-- 技术分享
+  - 技术分享
 tags:
-- Material Design
+  - Material Design
+abbrlink: 7455
 ---
 
 #### 自从2014那年谷歌提出的Material Design后，这种设计语言就广泛被程序猿使用，屡试不爽。在现如今的各个流行APP中，你都能发现它的身影。详细情况，自己百度吧，我只想说很装B。 ##

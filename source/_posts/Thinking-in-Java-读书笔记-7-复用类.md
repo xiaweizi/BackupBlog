@@ -1,11 +1,13 @@
+---
 title: Thinking-in-Java 读书笔记-7-复用类
 author: 下位子
-date: 1994-03-06 15:13:33
 tags:
   - Thinking In Java
   - 读书笔记
 categories:
   - Thinking In Java 读书笔记
+abbrlink: 43023
+date: 1994-03-06 15:13:33
 ---
 
 > 复用代码是 Java 众多引人注目的功能之一。但要想成为极具革命性的语言，仅仅能够复制diamante并对之加以改变是不够的，它还必须能够做更多的事情。

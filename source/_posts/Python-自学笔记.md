@@ -1,9 +1,11 @@
+---
 title: Python-自学笔记
-date: 2018.01.04 20:46:25
+date: '2018.01.04 20:46:25'
 categories:
-- 自学笔记
+  - 自学笔记
 tags:
-- python
+  - python
+abbrlink: 18215
 ---
 
 ## 赘述

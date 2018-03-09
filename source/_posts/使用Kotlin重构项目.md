@@ -1,10 +1,12 @@
+---
 title: 使用Kotlin重构项目
-date: 2017.09.09 20:46:25
+date: '2017.09.09 20:46:25'
 categories:
-- 技术分享
+  - 技术分享
 tags:
-- Kotlin
-- 项目重构
+  - Kotlin
+  - 项目重构
+abbrlink: 13823
 ---
 
 ## 前言

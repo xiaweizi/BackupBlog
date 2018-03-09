@@ -1,9 +1,11 @@
+---
 title: Google-最新模拟器重磅来袭！秒开并还原到之前工作状态！
-date: 2017.12.27 20:46:25
+date: '2017.12.27 20:46:25'
 categories:
-- 技术分享
+  - 技术分享
 tags:
-- Google 官方
+  - Google 官方
+abbrlink: 6515
 ---
 
 

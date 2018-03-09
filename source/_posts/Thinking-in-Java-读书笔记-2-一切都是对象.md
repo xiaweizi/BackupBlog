@@ -1,10 +1,12 @@
+---
 title: Thinking-in-Java-读书笔记-2-一切都是对象
-date: 1994.02.25 20:46:25
+date: '1994.02.25 20:46:25'
 categories:
-- Thinking In Java 读书笔记
+  - Thinking In Java 读书笔记
 tags:
-- Thinking In Java
-- 读书笔记
+  - Thinking In Java
+  - 读书笔记
+abbrlink: 28343
 ---
 
 > 如果我们说另一种不同的语言，那么我们就会觉得一个有些不同的世界。

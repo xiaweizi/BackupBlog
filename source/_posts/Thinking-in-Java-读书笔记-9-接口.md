@@ -1,11 +1,13 @@
+---
 title: Thinking-in-Java 读书笔记-9-接口
 author: 下位子
-date: 1994-03-08 15:13:33
 tags:
   - Thinking In Java
   - 读书笔记
 categories:
   - Thinking In Java 读书笔记
+abbrlink: 30700
+date: 1994-03-08 15:13:33
 ---
 
 > 接口和内部类为我们提供一种将接口与实现分离的更加结构化的方法。

@@ -1,10 +1,12 @@
+---
 title: 个人博客全新上线(阿里域名+GitPages+hexo+Yelee)
-date: 2018.02.14 20:46:25
+date: '2018.02.14 20:46:25'
 categories:
-- 技术分享
+  - 技术分享
 tags:
-- 博客
-- hexo
+  - 博客
+  - hexo
+abbrlink: 39434
 ---
 
 ## 前言

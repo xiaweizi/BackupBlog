@@ -1,11 +1,13 @@
+---
 title: Thinking-in-Java 读书笔记-8-多态
 author: 下位子
-date: 1994-03-07 15:13:33
 tags:
   - Thinking In Java
   - 读书笔记
 categories:
   - Thinking In Java 读书笔记
+abbrlink: 45901
+date: 1994-03-07 15:13:33
 ---
 
 ## 前言

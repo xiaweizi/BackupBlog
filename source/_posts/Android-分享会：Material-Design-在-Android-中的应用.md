@@ -1,10 +1,12 @@
+---
 title: Android-分享会：Material-Design-在-Android-中的应用
-date: 2017.12.18 20:46:25
+date: '2017.12.18 20:46:25'
 categories:
-- 技术分享
+  - 技术分享
 tags:
-- Material Design
-- 工作积累
+  - Material Design
+  - 工作积累
+abbrlink: 31642
 ---
 
 ## 前言

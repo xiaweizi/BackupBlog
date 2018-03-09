@@ -1,10 +1,12 @@
+---
 title: Thinking-in-Java-读书笔记-3-操作符
-date: 1994.02.26 20:46:25
+date: '1994.02.26 20:46:25'
 categories:
-- Thinking In Java 读书笔记
+  - Thinking In Java 读书笔记
 tags:
-- Thinking In Java
-- 读书笔记
+  - Thinking In Java
+  - 读书笔记
+abbrlink: 36989
 ---
 
 **在最底层，Java 中的数据是通过使用操作符来操作的。**

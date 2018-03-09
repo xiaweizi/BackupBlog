@@ -1,9 +1,11 @@
+---
 title: 简单粗暴----RecyclerView
-date: 2017.01.06 20:46:25
+date: '2017.01.06 20:46:25'
 categories:
-- 技术分享
+  - 技术分享
 tags:
-- Material Design
+  - Material Design
+abbrlink: 7798
 ---
 
 ###RecyclerView初步使用，下拉刷新，点击事件

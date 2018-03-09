@@ -1,10 +1,12 @@
+---
 title: 基于MaterialDesign设计风格的妹纸app的简单实现
-date: 2017.02.17 20:46:25
+date: '2017.02.17 20:46:25'
 categories:
-- 技术分享
+  - 技术分享
 tags:
-- 项目
-- Material Design
+  - 项目
+  - Material Design
+abbrlink: 7691
 ---
 
 *今天看了郭神的第二行代码，深深的被MaterialDesign的设计风格所吸引，然后就照例做了一个小Demo，希望多多支持，图片资源来源于网络。先附上我的源码地址*

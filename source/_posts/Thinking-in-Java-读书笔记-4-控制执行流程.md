@@ -1,10 +1,12 @@
+---
 title: Thinking-in-Java-读书笔记-4-控制执行流程
-date: 1994.02.28 18:27:25
+date: '1994.02.28 18:27:25'
 categories:
-- Thinking In Java 读书笔记
+  - Thinking In Java 读书笔记
 tags:
-- Thinking In Java
-- 读书笔记
+  - Thinking In Java
+  - 读书笔记
+abbrlink: 64790
 ---
 
 **就像有知觉的生物一样，程序必须在执行过程中控制它的世界，并做出选择。在 Java 中，你要使用执行控制语句来做出选择。**

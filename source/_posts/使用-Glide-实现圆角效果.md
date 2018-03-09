@@ -1,11 +1,13 @@
+---
 title: 使用-Glide-实现圆角效果
-date: 2017.08.22 20:46:25
+date: '2017.08.22 20:46:25'
 categories:
-- 技术分享
+  - 技术分享
 tags:
-- 自定义 View
-- 第三方库
-- 工作积累
+  - 自定义 View
+  - 第三方库
+  - 工作积累
+abbrlink: 35908
 ---
 
 上周接到个小需求，就是让一张图片的右下角为圆角，然后百度了一下，发现 `Glide` 直接支持对图片进行操作，只要继承 `BitmapTransformation `,或者实现 `Transformation`的接口，就可以获得原图的 `Bitmap`对象，通过 `Canvas`对图片重新绘制，最后 `Glide.with(this).load(R.drawable.test).asBitmap().transform(transformation).into(mImageView);`传入新建的`transformation`对象即可。

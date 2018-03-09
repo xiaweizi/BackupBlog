@@ -1,10 +1,12 @@
+---
 title: Android-自定义跑马灯
-date: 2017.12.26 20:46:25
+date: '2017.12.26 20:46:25'
 categories:
-- 技术分享
+  - 技术分享
 tags:
-- 自定义 View
-- 工作积累
+  - 自定义 View
+  - 工作积累
+abbrlink: 13147
 ---
 
 

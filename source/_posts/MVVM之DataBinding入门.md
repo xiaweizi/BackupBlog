@@ -1,10 +1,12 @@
+---
 title: MVVM之DataBinding入门
-date: 2017.08.30 20:46:25
+date: '2017.08.30 20:46:25'
 categories:
-- 技术分享
+  - 技术分享
 tags:
-- MVVM
-- DataBinding
+  - MVVM
+  - DataBinding
+abbrlink: 41851
 ---
 
 

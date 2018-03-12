@@ -6,6 +6,14 @@ date: 2018-03-04 20:19:21
 
 
 <br />
+<font size=7 color="#f00">生活之旅</font>
+
+<td align="center">
+<span style="font-size:14px;color:#FFFFFF;"><a target="_blank" href="http://xiaweizi.cn/photos/life" title="生活之旅" >查看更多</a></span></td>
+
+<img src="https://raw.githubusercontent.com/xiaweizi/BackupBlog/master/min_photos/同事猫1.jpg" height="300px" alt="同事猫1" ><img src="https://raw.githubusercontent.com/xiaweizi/BackupBlog/master/min_photos/同事猫2.jpg" height="300px" alt="同事猫2" ><img src="https://raw.githubusercontent.com/xiaweizi/BackupBlog/master/min_photos/舌尚自助烤肉1.jpg" height="300px" alt="舌尚自助烤肉1" ><img src="https://raw.githubusercontent.com/xiaweizi/BackupBlog/master/min_photos/舌尚自助烤肉2.jpg" height="300px" alt="舌尚自助烤肉2" >
+
+<br />
 <font size=7 color="#f00">阅江楼之旅</font>
 <br />
 <font size=3 >南京·2018年3月4日</font>

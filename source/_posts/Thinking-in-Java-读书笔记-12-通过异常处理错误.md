@@ -8,11 +8,18 @@ categories:
   - Thinking In Java 读书笔记
 abbrlink: thinking_in_java_12
 date: 1994-03-11 15:13:33
+
 ---
+
+[Thinking in java 读书笔记](http://xiaweizi.cn/categories/Thinking-In-Java-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/)
 
 > `Java` 的基本理念是 「结构不佳的代码不能运行。
 
 发现错误的理想时机是在编译阶段，也就是在你试图运行程序之前。然而，编译期间并不能找出所有的错误，余下的问题必须在运行期间解决。这就需要错误源通过某种方式，把适当的信息传递给某个接受者—接收者将知道如何正确处理这个问题。
+
+<!-- more -->
+
+
 
 ## 基本异常
 

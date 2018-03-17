@@ -9,6 +9,8 @@ categories:
 abbrlink: thinking_in_java_6
 date: 1994-03-05 10:12:00
 ---
+[Thinking in java 读书笔记](http://xiaweizi.cn/categories/Thinking-In-Java-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/)
+
 ## 前言
 
 我还记得第一次面试的时候，就是问 `public`、`protected`和`private`的区别，当时技术很渣，虽然知道是什么意思，但是表述的不是那么清楚，当时搞得自己很紧张，后面的问题也没有回答的很好。。。

@@ -9,6 +9,12 @@ tags:
 abbrlink: thinking_in_java_1
 ---
 
+
+
+[Thinking in java 读书笔记](http://xiaweizi.cn/categories/Thinking-In-Java-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/)
+
+
+
 ## 前言
 
 从本章开始，逐渐记录笔者在阅读「Thinking in Java」时，内容的积累、代码的实践和个人编程的心得，重要的是个人的成长。正式工作将近一年的我，有必要重新温故一下`Java`的核心基础，巩固自身的硬实力，从根本感受`Java`语言的魅力，而不是局限于敲代码，完成产品需求。更重要的是领悟每种语言的特色，融入其中，提升自己，感受学习带来的快乐！足以！
@@ -37,9 +43,9 @@ abbrlink: thinking_in_java_1
 
 ### 5. Java 用三个关键字在类的内部设定边界
 
-| public | private | protected | 
-| - | :-: | -: | 
-| 任何人都可以用 | 除类型创建者和内部方法，任何人不能访问| 仅继承的成员可以访问 | 
+| public | private | protected |
+| - | :-: | -: |
+| 任何人都可以用 | 除类型创建者和内部方法，任何人不能访问| 仅继承的成员可以访问 |
 
 ### 6. 复用具体实现
 

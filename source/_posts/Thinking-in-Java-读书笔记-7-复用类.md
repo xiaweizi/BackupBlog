@@ -8,7 +8,10 @@ categories:
   - Thinking In Java 读书笔记
 abbrlink: thinking_in_java_7
 date: 1994-03-06 15:13:33
+
 ---
+
+[Thinking in java 读书笔记](http://xiaweizi.cn/categories/Thinking-In-Java-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/)
 
 > 复用代码是 Java 众多引人注目的功能之一。但要想成为极具革命性的语言，仅仅能够复制diamante并对之加以改变是不够的，它还必须能够做更多的事情。
 

@@ -7,7 +7,11 @@ tags:
   - 读书笔记
 abbrlink: thinking_in_java_5
 date: 1994-03-02 16:25:00
+
 ---
+
+[Thinking in java 读书笔记](http://xiaweizi.cn/categories/Thinking-In-Java-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/)
+
 > 随着计算机革命的发展，不安全的编码方式逐渐成为编程代价高昂的主因之一。
 
 ## 前言
@@ -39,7 +43,7 @@ date: 1994-03-02 16:25:00
 那为什么不以返回值区分重载方法呢？
 
 	void f();
-    int f();
+	int f();
 
 `int a = f()`这种确实可以区分，但是`f()`这种方式编译器就不知道你需要调用的是哪个方法了。
 
@@ -60,10 +64,10 @@ date: 1994-03-02 16:25:00
             //....
         }
     }
-    
+
 `static`就更好理解了，`static`方法就是没有`this`的方法，在`static`方法的内部不能调用非静态方法，反过来是可以的。
 
-    
+
 ## 清理：终结处理和垃圾回收
 
 `Java`里的对象并非总是被垃圾回收，主要有三个特点：
@@ -73,7 +77,7 @@ date: 1994-03-02 16:25:00
 3. 垃圾回收只与内存有关。
 
 **finalize**
-   
+
 `Java`允许在类中定义一个名为`finalize`的方法，它的工作原理假定是这样的：一旦下一次垃圾回收器准备好释放对象占用的内存空间，将首先调用一个名为`finalize`的方法，并且在下一次垃圾回收动作发生时，才会真正回收对象占用的内存，所以要是你打算用`finalize()`，就能在垃圾回收时刻做一些重要的清理工作。但是它是无法预料，常常是危险的，总之是多余的。
 
 **垃圾回收器如何工作**
@@ -108,8 +112,8 @@ date: 1994-03-02 16:25:00
     
     Student student = new Student(2);
     student.f("x",2, "dfa", 0.2f);
-
-	// output
+    
+    // output
     x
     2
     dfa
@@ -120,7 +124,7 @@ date: 1994-03-02 16:25:00
         enum Color {
             RED, BLUE, BLACK
         }
-
+    
         Color red = Color.RED;
         switch (red) {
             case RED:

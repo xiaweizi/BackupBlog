@@ -8,7 +8,10 @@ categories:
   - Thinking In Java 读书笔记
 abbrlink: thinking_in_java_9
 date: 1994-03-08 15:13:33
+
 ---
+
+[Thinking in java 读书笔记](http://xiaweizi.cn/categories/Thinking-In-Java-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/)
 
 > 接口和内部类为我们提供一种将接口与实现分离的更加结构化的方法。
 
@@ -83,7 +86,7 @@ class HuangBo implements IStar {
         StarManager manager = new StarManager(new HuangBo());
         manager.sing();
         System.out.println("一共需要花费" + manager.money());
-        
+
 通过创建`StarManager`的方式，拿到`HuangBo`对象代理，其实具体的操作在`StarManager`具体实现中实现。最终需要的`money`也就会有所变化。
 
 ## 工厂
@@ -161,7 +164,7 @@ class BenChiFactory implements CarFactory {
     ICar car = carFactory.getCar();
     car.light();
     car.wheel();
-    
+
 那最终就可以通过构造工厂来完成汽车的制造，而不用过多的考虑汽车具体的构造过程，同样方便后期的维护，比如需要再添加其他零件。。
 
 

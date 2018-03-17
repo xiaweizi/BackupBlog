@@ -7,7 +7,12 @@ tags:
   - Thinking In Java
   - 读书笔记
 abbrlink: thinking_in_java_2
+
 ---
+
+[Thinking in java 读书笔记](http://xiaweizi.cn/categories/Thinking-In-Java-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/)
+
+
 
 > 如果我们说另一种不同的语言，那么我们就会觉得一个有些不同的世界。
 >  ---Luduing Wittgerstein(1889-1951)
@@ -49,7 +54,7 @@ abbrlink: thinking_in_java_2
 Java 中确定每种基本类型所占空间的大小，它们的大小并不像其他大多数语言那样所机器硬件架构的变化而变化。
 
 | 基本类型 | 大小 | 最大值 | 最小值|
-| - | :-: | :-: |  :-: | 
+| - | :-: | :-: |  :-: |
 | boolen | - | - | - |
 | char | 16-bit | Unicode 0 | Unicode 2^16-1 |
 | byte | 8-bit | -128 | 127 |
@@ -67,7 +72,7 @@ Java 中确定每种基本类型所占空间的大小，它们的大小并不像
 **基本成员默认值**
 
 | 基本类型 | 默认值|
-| - | :-: | 
+| - | :-: |
 | boolen | false |
 | char | '\u0000'(null) |
 | byte | (byte)0 |

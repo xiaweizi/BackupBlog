@@ -8,7 +8,10 @@ categories:
   - Thinking In Java 读书笔记
 abbrlink: thinking_in_java_11
 date: 1994-03-10 15:13:33
+
 ---
+
+[Thinking in java 读书笔记](http://xiaweizi.cn/categories/Thinking-In-Java-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/)
 
 > 如果一个程序只包含固定数量的且其生命期都是已知的对象，那么这是一个非常简单的程序。
 

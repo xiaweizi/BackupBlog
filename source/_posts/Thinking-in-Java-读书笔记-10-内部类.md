@@ -8,7 +8,10 @@ categories:
   - Thinking In Java 读书笔记
 abbrlink: thinking_in_java_10
 date: 1994-03-09 15:13:33
+
 ---
+
+[Thinking in java 读书笔记](http://xiaweizi.cn/categories/Thinking-In-Java-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/)
 
 > 可以将一个类的定义放在另一个类的定义内部，这就是内部类。
 

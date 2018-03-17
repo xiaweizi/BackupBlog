@@ -10,6 +10,8 @@ abbrlink: thinking_in_java_8
 date: 1994-03-07 15:13:33
 ---
 
+[Thinking in java 读书笔记](http://xiaweizi.cn/categories/Thinking-In-Java-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/)
+
 ## 前言
 
 记得刚接触`Java`的时候，整天被老师灌输的就是「封装」、「继承」、「抽象」和「多态」，因为这是面向对象语言基本的特征。尴尬的是，直到大学毕业了也没有彻底搞懂...

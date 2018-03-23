@@ -1,8 +1,8 @@
 ---
-title: 使用-Glide-实现圆角效果
+title: 『自定义View实战』—— 实现图片的圆角效果
 date: '2017.08.22 20:46:25'
 categories:
-  - 技术分享
+  - 自定义View实战
 tags:
   - 自定义 View
   - 第三方库
@@ -57,10 +57,10 @@ abbrlink: 35908
 1. 在你的项目根 `build.gradle` 文件下添加 `maven`地址
 
          allprojects {
-		  repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		  }
+	      repositories {
+	    	...
+	    	maven { url 'https://jitpack.io' }
+	      }
         }
 2. 在`module`对应的`build.gradle`下添加依赖
 

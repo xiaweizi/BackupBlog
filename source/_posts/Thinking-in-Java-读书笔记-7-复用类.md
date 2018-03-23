@@ -1,5 +1,5 @@
 ---
-title: Thinking-in-Java 读书笔记-7-复用类
+title: 『Thinking in Java 读书笔记』—— 7-复用类
 author: 下位子
 tags:
   - Thinking In Java

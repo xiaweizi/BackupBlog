@@ -1,5 +1,5 @@
 ---
-title: Thinking-in-Java 读书笔记-10-内部类
+title: 『Thinking in Java 读书笔记』—— 10-内部类
 author: 下位子
 tags:
   - Thinking In Java

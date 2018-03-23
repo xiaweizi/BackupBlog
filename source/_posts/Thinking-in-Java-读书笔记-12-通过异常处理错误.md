@@ -1,5 +1,5 @@
 ---
-title: Thinking-in-Java 读书笔记-12-通过异常处理错误
+title: 『Thinking in Java 读书笔记』—— 12-通过异常处理错误
 author: 下位子
 tags:
   - Thinking In Java

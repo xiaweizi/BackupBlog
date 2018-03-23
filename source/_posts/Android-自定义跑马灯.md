@@ -1,8 +1,8 @@
 ---
-title: Android-自定义跑马灯
+title: 『自定义View实战』—— 跑马灯
 date: '2017.12.26 20:46:25'
 categories:
-  - 技术分享
+  - 自定义View实战
 tags:
   - 自定义 View
   - 工作积累
@@ -34,7 +34,7 @@ abbrlink: 13147
         android:singleLine="true"
         android:text="我是跑马灯，我是跑马灯，我是跑马灯，我是跑马灯，我是跑马灯，我是跑马"
         android:textSize="28sp" />
-    
+
 可以看到需要很多的属性配置，了解一下每个属性的含义：
 
 - `android:ellipsize="marquee"` 设置为跑马灯效果
@@ -54,7 +54,7 @@ abbrlink: 13147
     public boolean isFocused() {
         return true;
     }
-    
+
 就算这样，在遇到复杂的界面还是会遇到问题，要么焦点会被断断续续的被抢夺，导致卡顿，要么不符合`UI`提出的滚动速度要求。
 
 
@@ -76,13 +76,13 @@ abbrlink: 13147
 			maven { url 'https://jitpack.io' }
 		}
 	}
-	
+
 在`app`下的`build.gradle`添加依赖
 
 	dependencies {
 		compile 'com.github.xiaweizi:MarqueeTextView:1.0'
 	}
-	
+
 最后在`XML`直接使用即可：
 
        <com.xiaweizi.marquee.MarqueeTextView
@@ -96,7 +96,7 @@ abbrlink: 13147
             app:scroll_first_delay="0"
             app:scroll_interval="2000"
             app:scroll_mode="mode_forever" />
-	
+
 具有一下功能：
 
 - 控制滚动时间
@@ -128,7 +128,7 @@ abbrlink: 13147
         public void startScroll (int startX, int startY, int dx, int dy, int duration) {
             ...
         } 
-    
+   
 2. `computeScrollOffset`
 
         /**
@@ -153,7 +153,7 @@ abbrlink: 13147
         tp.getTextBounds(strTxt, 0, strTxt.length(), rect);
         return rect.width();
     }
-    
+
 **其次**，调用`startScroll`方法进行滚动，注意的是需要调用`invalidate`方法，才会有效果。
 
 **最后**一个问题就是，滚动结束后继续滚动。`Scroller`在滚动的时候，会不断回调`View`的`computeScroll`方法，于是就可以在这个方法里进行判断，如果结束了，就重新开始。

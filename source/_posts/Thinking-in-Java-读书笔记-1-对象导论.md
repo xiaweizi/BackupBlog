@@ -1,5 +1,5 @@
 ---
-title: Thinking-in-Java-读书笔记-1-对象导论
+title: 『Thinking in Java 读书笔记』—— 1-对象导论
 date: '1994.02.24 20:46:25'
 categories:
   - Thinking In Java 读书笔记

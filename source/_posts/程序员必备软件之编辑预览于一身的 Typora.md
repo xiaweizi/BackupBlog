@@ -1,5 +1,5 @@
 ---
-title: 程序员必备软件之编辑预览于一身的 Typora
+title: 『程序员必备软件』—— 编辑预览于一身的 Typora
 author: 下位子
 tags:
   - 工具软件

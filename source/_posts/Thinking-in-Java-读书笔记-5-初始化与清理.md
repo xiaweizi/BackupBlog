@@ -1,5 +1,5 @@
 ---
-title: Thinking-in-Java-读书笔记-5-初始化与清理
+title: 『Thinking in Java 读书笔记』—— 5-初始化与清理
 categories:
   - Thinking In Java 读书笔记
 tags:

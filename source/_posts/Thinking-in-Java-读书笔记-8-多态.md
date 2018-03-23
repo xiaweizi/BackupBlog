@@ -1,5 +1,5 @@
 ---
-title: Thinking-in-Java 读书笔记-8-多态
+title: 『Thinking in Java 读书笔记』—— 8-多态
 author: 下位子
 tags:
   - Thinking In Java

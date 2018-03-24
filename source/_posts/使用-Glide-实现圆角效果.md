@@ -10,6 +10,10 @@ tags:
 abbrlink: 35908
 ---
 
+> 在工作中难免遇到自定义 `View` 的相关需求，本身这方面比较薄弱，因此做个记录，也是自己学习和成长的积累。[自定义View实战](https://link.jianshu.com/?t=http%3A%2F%2Fxiaweizi.cn%2Fcategories%2F%25E8%2587%25AA%25E5%25AE%259A%25E4%25B9%2589View%25E5%25AE%259E%25E6%2588%2598%2F)
+
+
+
 上周接到个小需求，就是让一张图片的右下角为圆角，然后百度了一下，发现 `Glide` 直接支持对图片进行操作，只要继承 `BitmapTransformation `,或者实现 `Transformation`的接口，就可以获得原图的 `Bitmap`对象，通过 `Canvas`对图片重新绘制，最后 `Glide.with(this).load(R.drawable.test).asBitmap().transform(transformation).into(mImageView);`传入新建的`transformation`对象即可。
 
 <!-- more -->

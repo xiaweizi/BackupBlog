@@ -12,7 +12,7 @@ date: 2018-03-23 20:11:12
 
 
 
-> 在工作中难免遇到自定义 `View` 的相关需求，本身这方面比较薄弱，因此做个记录，也是自己学习和成长的积累。[自定义View实战](https://link.jianshu.com/?t=http%3A%2F%2Fxiaweizi.cn%2Fcategories%2F%25E8%2587%25AA%25E5%25AE%259A%25E4%25B9%2589View%25E5%25AE%259E%25E6%2588%2598%2F)
+> 在工作中难免遇到自定义 `View` 的相关需求，本身这方面比较薄弱，因此做个记录，也是自己学习和成长的积累。[自定义View实战](https://link.jianshu.com/?t=http%3A%2F%2Fxiaweizi.cn%2Fcategories%2F%25E8%2587%25AA%25E5%25AE%259A%25E4%25B9%2589View%25E5%25AE%259E%25E6%2588%2598%2F).
 
  ## 前言
 

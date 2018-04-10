@@ -1,5 +1,5 @@
 ---
-title: 个人博客全新上线(阿里域名+GitPages+hexo+Yelee)
+title: 『技术分享』— 个人博客全新上线(阿里域名+GitPages+hexo+Yelee)
 date: '2018.02.14 20:46:25'
 categories:
   - 技术分享
@@ -141,7 +141,7 @@ abbrlink: 39434
     
     <!-- e.g. -->
     <div class="github-widget" data-repo="xiaweizi/QNews"></div>
-    
+
 ![GitHub 小挂件](http://upload-images.jianshu.io/upload_images/4043475-18522728a2540610.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 这个小挂件展示了对应仓库的链接地址、`star`和`fork`的数量等等信息。

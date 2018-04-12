@@ -42,6 +42,7 @@ abbrlink: 31905
 - 鼠标点击效果
 - `PDF` 预览
 - 添加可爱的妹子
+- 添加网站运行时间
 
 ## 来必力评论
 
@@ -333,5 +334,37 @@ live2d:
 ![预览4](http://owj4ejy7m.bkt.clouddn.com/2018-03-25-image-201803251226068.png)
 
 [源码地址](https://github.com/xiazeyu/live2d-widget-models)
+
+## 网站运行时间添加
+
+实时展示你的博客已经运行了多长时间了，我还是蛮喜欢这个功能的，随着时间的增长，和你的博客访问量形成照样，成就感也会增添不少。
+
+### 添加
+
+在 `hexo/themes/[your theme]/layout` 文件夹下找到你的 `footer` 文件，即脚布局文件，在对应的位置添加一下代码。
+
+```javascript
+<span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span>
+<script>
+    var now = new Date(); 
+    function createtime() { 
+        var grt= new Date("02/14/2018 12:49:00");//此处修改你的建站时间或者网站上线时间 
+        now.setTime(now.getTime()+250); 
+        days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days); 
+        hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours); 
+        if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum); 
+        mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;} 
+        seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum); 
+        snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;} 
+        document.getElementById("timeDate").innerHTML = "本站已安全运行 "+dnum+" 天 "; 
+        document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒"; 
+    } 
+setInterval("createtime()",250);
+</script>
+```
+
+### 运行效果
+
+![运行预览](http://owj4ejy7m.bkt.clouddn.com/2018-04-12-time%20record.gif)
 
 如果遇到什么问题，希望我可以帮助到你，[我的博客](http://xiaweizi.cn)

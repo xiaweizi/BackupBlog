@@ -37,6 +37,8 @@ public class Immutable {
 // howdy 
 ```
 
+<!-- more -->
+
 ## 重载运算符 + 与 StringBuilder
 
 #### 重载

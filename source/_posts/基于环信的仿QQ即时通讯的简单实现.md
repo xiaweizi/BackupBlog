@@ -1,5 +1,5 @@
 ---
-title: 基于环信的仿QQ即时通讯的简单实现
+title: 『Android Tips』-- 基于环信的仿QQ即时通讯的简单实现
 date: '2017.01.21 20:46:25'
 categories:
   - 技术分享
@@ -9,7 +9,10 @@ tags:
 abbrlink: 276
 ---
 
+> 平时 `Android` 开发中总会遇到奇葩的功能或者需求，这里做个记录和积累，以便后面开发过程中遇到类似的问题，可以快速的解决。[Android tips](http://xiaweizi.cn/categories/Android-tips/)
+
 *[我的博客地址](http://xiaweizi.cn/)*
+
 #### 之前一直想实现聊天的功能，但是感觉有点困难，今天看了环信的API，就利用下午的时间动手试了试，然后做了一个小Demo。 ####
 
 #### 因为没有刻意去做聊天软件，花的时间也不多，然后界面就很简单，都是一些基本知识，如果觉得功能简单，可以自行添加，我这就不多介绍了。 ####
@@ -39,68 +42,68 @@ abbrlink: 276
 ---
 
     public class MSG {
-	    public static final int TYPE_RECEIVED = 0;//消息的类型:接收
-	    public static final int TYPE_SEND = 1;    //消息的类型:发送
-
-	    private String content;//消息的内容
-	    private int type;	   //消息的类型
-	
-	    public MSG(String content, int type) {
-	        this.content = content;
-	        this.type = type;
-	    }
-	
-	    public String getContent() {
-	        return content;
-	    }
-	
-	    public int getType() {
-	        return type;
-	    }
+        public static final int TYPE_RECEIVED = 0;//消息的类型:接收
+        public static final int TYPE_SEND = 1;    //消息的类型:发送
+    
+        private String content;//消息的内容
+        private int type;	   //消息的类型
+    
+        public MSG(String content, int type) {
+            this.content = content;
+            this.type = type;
+        }
+    
+        public String getContent() {
+            return content;
+        }
+    
+        public int getType() {
+            return type;
+        }
     }
 #### b.	RecyclerView子项的布局 ####
 ---
 	<LinearLayout
-        android:id="@+id/ll_msg_left"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+	    android:id="@+id/ll_msg_left"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
 		<!-- 设置点击效果为水波纹(5.0以上) -->
-        android:background="?android:attr/selectableItemBackground"
-        android:clickable="true"
-        android:focusable="true"
-        android:orientation="horizontal"
-        android:padding="2dp">
-
-        <android.support.v7.widget.CardView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:cardCornerRadius="20dp"
-            app:cardPreventCornerOverlap="false"
-            app:cardUseCompatPadding="true">
-
-            <ImageView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:scaleType="centerCrop"
-                android:src="@mipmap/man" />
-        </android.support.v7.widget.CardView>
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/message_left"
-            android:orientation="horizontal">
-
-            <TextView
-                android:id="@+id/tv_msg_left"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_margin="10dp"
-                android:textColor="#fff" />
-        </LinearLayout>
-
-    </LinearLayout>
+	    android:background="?android:attr/selectableItemBackground"
+	    android:clickable="true"
+	    android:focusable="true"
+	    android:orientation="horizontal"
+	    android:padding="2dp">
+	
+	    <android.support.v7.widget.CardView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        app:cardCornerRadius="20dp"
+	        app:cardPreventCornerOverlap="false"
+	        app:cardUseCompatPadding="true">
+	
+	        <ImageView
+	            android:layout_width="50dp"
+	            android:layout_height="50dp"
+	            android:scaleType="centerCrop"
+	            android:src="@mipmap/man" />
+	    </android.support.v7.widget.CardView>
+	
+	    <LinearLayout
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/message_left"
+	        android:orientation="horizontal">
+	
+	        <TextView
+	            android:id="@+id/tv_msg_left"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center"
+	            android:layout_margin="10dp"
+	            android:textColor="#fff" />
+	    </LinearLayout>
+	
+	</LinearLayout>
 > 这是左边的部分，至于右边应该也就简单了。我用CardView把ImageView包裹起来，这样比较好看。效果如下：
 
 ![item布局.png](http://upload-images.jianshu.io/upload_images/4043475-76ea5370b4d09d89.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
@@ -170,23 +173,23 @@ abbrlink: 276
 就是一些基本的初始化，我就不赘述了，讲一下添加数据的细节处理
 
 		btSend.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                String content = etInput.getText().toString().trim();
-                if (!TextUtils.isEmpty(content)){
-
+	        @Override
+	        public void onClick(View v) {
+	            String content = etInput.getText().toString().trim();
+	            if (!TextUtils.isEmpty(content)){
+	
 					...//环信部分的发送消息
-
-        			MSG msg = new MSG(content, MSG.TYPE_SEND);
-                    mList.add(msg);
+	
+	    			MSG msg = new MSG(content, MSG.TYPE_SEND);
+	                mList.add(msg);
 					//当有新消息时，刷新RecyclerView中的显示
-                    mAdapter.notifyItemInserted(mList.size() - 1);
+	                mAdapter.notifyItemInserted(mList.size() - 1);
 					//将RecyclerView定位到最后一行
-                    mRecyclerView.scrollToPosition(mList.size() - 1);
-                    etInput.setText("");
-                }
-            }
-        });
+	                mRecyclerView.scrollToPosition(mList.size() - 1);
+	                etInput.setText("");
+	            }
+	        }
+	    });
 >至此界面已经结束了，接下来就是数据的读取
 
 ## 2. 环信API的简单应用 ##
@@ -230,7 +233,7 @@ Android Studio可以直接添加依赖
 	    package="Your Package"
 	    android:versionCode="100"
 	    android:versionName="1.0.0">
-   
+	   
 	    <!-- Required -->
 	    <uses-permission android:name="android.permission.VIBRATE" />
 	    <uses-permission android:name="android.permission.INTERNET" />
@@ -285,7 +288,7 @@ APP打包混淆
 *在自定义Application的onCreate中初始化*
 
 	public class MyApplication extends Application {
-
+	
 	    private Context appContext;
 	
 	    @Override
@@ -341,25 +344,25 @@ APP打包混淆
 
     //注册失败会抛出HyphenateException
     EMClient.getInstance().createAccount(username, pwd);//同步方法
-
-	EMClient.getInstance().login(userName,password,new EMCallBack() {//回调
-	    @Override
-	    public void onSuccess() {
-	        EMClient.getInstance().groupManager().loadAllGroups();
-	        EMClient.getInstance().chatManager().loadAllConversations();
-	            Log.d("main", "登录聊天服务器成功！");        
-	    }
-	 
-	    @Override
-	    public void onProgress(int progress, String status) {
-	 
-	    }
-	 
-	    @Override
-	    public void onError(int code, String message) {
-	        Log.d("main", "登录聊天服务器失败！");
-	    }
-	});
+    
+    EMClient.getInstance().login(userName,password,new EMCallBack() {//回调
+        @Override
+        public void onSuccess() {
+            EMClient.getInstance().groupManager().loadAllGroups();
+            EMClient.getInstance().chatManager().loadAllConversations();
+                Log.d("main", "登录聊天服务器成功！");        
+        }
+     
+        @Override
+        public void onProgress(int progress, String status) {
+     
+        }
+     
+        @Override
+        public void onError(int code, String message) {
+            Log.d("main", "登录聊天服务器失败！");
+        }
+    });
 #### f.	发送消息 ####
 ---
     //创建一条文本消息，content为消息文字内容，toChatUsername为对方用户或者群聊的id，后文皆是如此
@@ -369,50 +372,50 @@ APP打包混淆
 #### g.	接收消息 ####
 ---
 	msgListener = new EMMessageListener() {
-
-            @Override
-            public void onMessageReceived(List<EMMessage> messages) {
-                //收到消息
-                String result = messages.get(0).getBody().toString();
-                String msgReceived = result.substring(5, result.length() - 1);
-
-                Log.i(TAG, "onMessageReceived: " + msgReceived);
-                final MSG msg = new MSG(msgReceived, MSG.TYPE_RECEIVED);
-                runOnUiThread(new Runnable() {
-                    @Override
-                    public void run() {
-                        mList.add(msg);
-                        mAdapter.notifyDataSetChanged();
-                        mRecyclerView.scrollToPosition(mList.size() - 1);
-                    }
-                });
-            }
-
-            @Override
-            public void onCmdMessageReceived(List<EMMessage> messages) {
-                //收到透传消息
-            }
-
-            @Override
-            public void onMessageRead(List<EMMessage> list) {
-
-            }
-
-            @Override
-            public void onMessageDelivered(List<EMMessage> list) {
-
-            }
-
-            @Override
-            public void onMessageChanged(EMMessage message, Object change) {
-                //消息状态变动
-            }
-        };
+	
+	        @Override
+	        public void onMessageReceived(List<EMMessage> messages) {
+	            //收到消息
+	            String result = messages.get(0).getBody().toString();
+	            String msgReceived = result.substring(5, result.length() - 1);
+	
+	            Log.i(TAG, "onMessageReceived: " + msgReceived);
+	            final MSG msg = new MSG(msgReceived, MSG.TYPE_RECEIVED);
+	            runOnUiThread(new Runnable() {
+	                @Override
+	                public void run() {
+	                    mList.add(msg);
+	                    mAdapter.notifyDataSetChanged();
+	                    mRecyclerView.scrollToPosition(mList.size() - 1);
+	                }
+	            });
+	        }
+	
+	        @Override
+	        public void onCmdMessageReceived(List<EMMessage> messages) {
+	            //收到透传消息
+	        }
+	
+	        @Override
+	        public void onMessageRead(List<EMMessage> list) {
+	
+	        }
+	
+	        @Override
+	        public void onMessageDelivered(List<EMMessage> list) {
+	
+	        }
+	
+	        @Override
+	        public void onMessageChanged(EMMessage message, Object change) {
+	            //消息状态变动
+	        }
+	    };
 
 >接收消息的监听器分别需要在OnResume()和OnDestory()方法中注册和取消注册
 
     EMClient.getInstance().chatManager().addMessageListener(msgListener);//注册
-
+    
     EMClient.getInstance().chatManager().removeMessageListener(msgListener);//取消注册
 
 >需要注意的是，当接收到消息，需要在**主线程**中更新适配器，否则会不能及时刷新出来

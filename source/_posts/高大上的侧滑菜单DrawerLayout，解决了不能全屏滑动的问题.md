@@ -8,7 +8,10 @@ tags:
 abbrlink: 7455
 ---
 
+> 平时 `Android` 开发中总会遇到奇葩的功能或者需求，这里做个记录和积累，以便后面开发过程中遇到类似的问题，可以快速的解决。[Android tips](http://xiaweizi.cn/categories/Android-tips/)
+
 #### 自从2014那年谷歌提出的Material Design后，这种设计语言就广泛被程序猿使用，屡试不爽。在现如今的各个流行APP中，你都能发现它的身影。详细情况，自己百度吧，我只想说很装B。 ##
+
 ---
 
 <!-- more -->
@@ -58,23 +61,23 @@ abbrlink: 7455
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
-
+    
             <!-- 添加ToolBar -->
             <include layout="@layout/toolbar"/>
-
+    
             <!--添加DrawerLayout-->
             <android.support.v4.widget.DrawerLayout
                 android:id="@+id/drawerlayout"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
-
+    
                 <!-- 一般第一个位置的代表 主内容 -->
                 <FrameLayout
                     android:id="@+id/main"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
                 </FrameLayout>
-
+    
                 <!-- 左侧菜单(设置layout_gravity 为left) -->
                 <RelativeLayout
                     android:id="@+id/left"
@@ -82,7 +85,7 @@ abbrlink: 7455
                     android:layout_height="match_parent"
                     android:layout_gravity="left">
                 </RelativeLayout>
-
+    
                 <!-- 右侧菜单(设置layout_gravity 为right) -->
                 <RelativeLayout
                     android:id="@+id/right"
@@ -134,12 +137,12 @@ abbrlink: 7455
                     drawerLayout.getClass().getDeclaredField("mLeftDragger");//Right
             leftDraggerField.setAccessible(true);
             ViewDragHelper leftDragger = (ViewDragHelper) leftDraggerField.get(drawerLayout);
-
+    
             // 找到 edgeSizeField 并设置 Accessible 为true
             Field edgeSizeField = leftDragger.getClass().getDeclaredField("mEdgeSize");
             edgeSizeField.setAccessible(true);
             int edgeSize = edgeSizeField.getInt(leftDragger);
-
+    
             // 设置新的边缘大小
             Point displaySize = new Point();
             activity.getWindowManager().getDefaultDisplay().getSize(displaySize);

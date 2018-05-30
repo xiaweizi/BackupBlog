@@ -9,7 +9,7 @@ date: 2018-02-26 18:23:20
 
 <br></br>
 
-<center><font color=black>**相遇即缘分，有什么想对我说的，或者有什么指教都可以在下面留言，共同学习，共同进步！**</font></center>
+<center><font color=black>**相遇即缘分，有什么想对我说的，或者有什么指教都可以在下面留言，共同学习，共同进步！!**</font></center>
 
 <br></br>
 

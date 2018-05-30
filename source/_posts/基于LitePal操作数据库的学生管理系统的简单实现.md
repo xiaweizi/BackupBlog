@@ -1,15 +1,19 @@
 ---
-title: 基于LitePal操作数据库的学生管理系统的简单实现
+title: 『Android Tips』-- 基于LitePal操作数据库的学生管理系统的简单实现
 date: '2017.01.22 20:46:25'
 categories:
   - 技术分享
+  - Android tips
 tags:
   - 项目
   - 第三方库
 abbrlink: 2954
 ---
 
+> 平时 `Android` 开发中总会遇到奇葩的功能或者需求，这里做个记录和积累，以便后面开发过程中遇到类似的问题，可以快速的解决。[Android tips](http://xiaweizi.cn/categories/Android-tips/)
+
 #### 今天看了郭神的《第二行代码》的第六章，才发现LitePal用起来是多么方便简介，就花了下午的时间做了一个小Demo，界面功能都简单，请见谅
+
 ---
 *本文只是LitePal的简单应用，目的是快速入门LitePal。界面和功能都简单，若不满，请自行添加。*
 
@@ -47,9 +51,9 @@ LitePal是一款开源的Android数据库框架，它采用了对象关系映射
 接下来修改清单文件代码，配置Application
 
 	<application
-        android:name="org.litepal.LitePalApplication"
-        ...
-    </application>
+	    android:name="org.litepal.LitePalApplication"
+	    ...
+	</application>
 
 最后代码中创建数据库
 
@@ -58,7 +62,7 @@ LitePal是一款开源的Android数据库框架，它采用了对象关系映射
 #### a. 需要一个JavaBean对象，也就是数据库的表 ####
 ---
 	public class Student extends DataSupport{
-
+	
 	    private int id;
 	    private String name;//姓名
 	    private int studentId;//学号
@@ -100,8 +104,8 @@ LitePal是一款开源的Android数据库框架，它采用了对象关系映射
 #### b. 修改litepal.xml中的代码 ####
 ---
 	<list>
-        <mapping class="com.xiaweizi.studentsystem.Student"></mapping>
-    </list>
+	    <mapping class="com.xiaweizi.studentsystem.Student"></mapping>
+	</list>
 >运行一下程序，然后你就可以在data/data/包名的文件下看到数据库已经创建了：
 
 ![数据库.PNG](http://upload-images.jianshu.io/upload_images/4043475-7d01854c495230ad.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
@@ -114,10 +118,10 @@ LitePal是一款开源的Android数据库框架，它采用了对象关系映射
 ### 1. 添加数据 ###
 
 		Student student = new Student();
-        student.setName(name);
-        student.setSex(sex);
-        student.setStudentId(Integer.parseInt(studentId));
-        student.save();
+	    student.setName(name);
+	    student.setSex(sex);
+	    student.setStudentId(Integer.parseInt(studentId));
+	    student.save();
 效果如下：
 ![添加数据.PNG](http://upload-images.jianshu.io/upload_images/4043475-bf48d4c2d74d168e.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
@@ -126,10 +130,10 @@ LitePal是一款开源的Android数据库框架，它采用了对象关系映射
 >一行代码搞定，只要调用`DataSupport.deleteAll()`即可，第一参数，是要删除哪张表的数据，后面则为约束条件，不难看懂。
 ### 3. 修改数据 ###
 		Student student = new Student();
-        student.setName(name);
-        student.setSex(sex);
-        student.setStudentId(Integer.parseInt(studentId));
-        student.updateAll("id = ?", id+"");
+	    student.setName(name);
+	    student.setSex(sex);
+	    student.setStudentId(Integer.parseInt(studentId));
+	    student.updateAll("id = ?", id+"");
 >还是要new一个实例，然后要设置更新的数据，最后调用`updateAll()`方法执行更新操作。参数跟删除数据很像，也是约束条件，如果不传参数，则修改所有的数据。
 
 >这里需要注意一点，如果想让数据恢复成默认值，**是不能直接设置默认值的。**

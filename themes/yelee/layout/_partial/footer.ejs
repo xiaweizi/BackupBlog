@@ -4,6 +4,8 @@
             <div class="footer-left">
                 <i class="fa fa-copyright"></i> 
                 <% if (theme.since && !isNaN(theme.since) && theme.since < date(new Date(), 'YYYY')) { %><%- theme.since%>-<% } %><%= date(new Date(), 'YYYY') %> <%= config.author || config.title %>
+                <br></br>
+                <br>苏ICP备18034197号</br>
             </div>
         </div>
         <% if (theme.visit_counter.on) { %>

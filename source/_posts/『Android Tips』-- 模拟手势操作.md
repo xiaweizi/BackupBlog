@@ -18,7 +18,7 @@ date: 2018-05-28 22:11:12
 
 <!-- more -->
 
-![整体交互](http://owj4ejy7m.bkt.clouddn.com/2018-05-29-jiaohu.gif)
+![整体交互](http://xiaweizi.top/2018-05-29-jiaohu.gif)
 
 里面有很多细小的知识点，比如阴影、状态栏颜色、下拉刷新、tab 悬浮、TCP 更新、数据缓存等等，或者是奇葩的 `BUG`，比如透明主题的 `Activity` 下 `Dialog` 的展示、`Fragment` 的 `setUserVisibleHint`没有按照预期执行等等，总之，在这次版本过后，感觉自己写 `UI`的能力提高了不少。
 
@@ -28,11 +28,11 @@ date: 2018-05-28 22:11:12
 
 进入正题，整个界面我是通过一个通用的下拉刷新控件 + `design` 库 `CoordinatorLayout` 实现的。那这里有个小需求，看一下效果：
 
-![card](http://owj4ejy7m.bkt.clouddn.com/2018-05-29-TouchPreview.gif)
+![card](http://xiaweizi.top/2018-05-29-TouchPreview.gif)
 
 
 
-![head](http://owj4ejy7m.bkt.clouddn.com/2018-05-29-093648.png)
+![head](http://xiaweizi.top/2018-05-29-093648.png)
 
 说明：点击蓝色区域，展开资金页，同时整个界面向下滑动至初始位置。
 
@@ -85,7 +85,7 @@ date: 2018-05-28 22:11:12
 
 **事件传递的流程是什么？**
 
-![事件分发](http://owj4ejy7m.bkt.clouddn.com/2018-05-29-%E4%BA%8B%E4%BB%B6%E5%88%86%E5%8F%91.png)
+![事件分发](http://xiaweizi.top/2018-05-29-%E4%BA%8B%E4%BB%B6%E5%88%86%E5%8F%91.png)
 
 上图来源于 [事件分发机制详解](https://www.jianshu.com/p/38015afcdb58)，特此感谢。
 
@@ -128,7 +128,7 @@ public static void simulateClick(Activity activity, float x, float y) {
 
 看一下 `Demo` 的运行效果：
 
-![模拟点击](http://owj4ejy7m.bkt.clouddn.com/2018-05-29-%E6%A8%A1%E6%8B%9F%E7%82%B9%E5%87%BB.gif)
+![模拟点击](http://xiaweizi.top/2018-05-29-%E6%A8%A1%E6%8B%9F%E7%82%B9%E5%87%BB.gif)
 
 **模拟滑动**
 
@@ -211,7 +211,7 @@ static class ActivityHandler extends Handler {
 
 看一下 `Demo`  的运行效果：
 
-![模拟滑动](http://owj4ejy7m.bkt.clouddn.com/2018-05-29-%E6%A8%A1%E6%8B%9F%E6%BB%91%E5%8A%A8.gif)
+![模拟滑动](http://xiaweizi.top/2018-05-29-%E6%A8%A1%E6%8B%9F%E6%BB%91%E5%8A%A8.gif)
 
 模拟手势画了一个⭐️，具体的源码我已经上传到了 `Github` 上 [ScrollDemo](https://github.com/xiaweizi/ScollDemo)。
 

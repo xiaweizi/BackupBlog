@@ -24,11 +24,11 @@ date: 2018-03-23 20:11:12
 
 `UI`那边直接让我参考 `IOS`的实现效果:
 
-![UI效果](http://owj4ejy7m.bkt.clouddn.com/2018-03-23-12A0620B-7476-42BE-BE83-09280E35CD18.png)
+![UI效果](http://xiaweizi.top/2018-03-23-12A0620B-7476-42BE-BE83-09280E35CD18.png)
 
 ## 最终效果
 
-![最终效果](http://owj4ejy7m.bkt.clouddn.com/2018-03-23-DownloadView.gif)
+![最终效果](http://xiaweizi.top/2018-03-23-DownloadView.gif)
 
 源码请看 [DownloadLoadingView](https://github.com/xiaweizi/DownloadLoadingView)
 
@@ -36,7 +36,7 @@ date: 2018-03-23 20:11:12
 
 面对这样的需要应该怎么实现呢？其实实现的方式可能不止我想的这种，我就讲述一下我是如何处理的。
 
-![预览图](http://owj4ejy7m.bkt.clouddn.com/2018-03-23-115616.png)
+![预览图](http://xiaweizi.top/2018-03-23-115616.png)
 
 首先，可以分成三部分：
 
@@ -186,6 +186,6 @@ Dc：全称为Destination color，表示目标图的颜色.
 
 来看一下权威的展示图：
 
-![mode预览图](http://owj4ejy7m.bkt.clouddn.com/2018-03-23-122007.png)
+![mode预览图](http://xiaweizi.top/2018-03-23-122007.png)
 
 我觉得 [各个击破搞明白 PorterDuff.Mode](https://www.jianshu.com/p/d11892bbe055) 这篇文章写的特别好，不是很懂的小伙伴可以看一下，在这里也表示一下感谢。

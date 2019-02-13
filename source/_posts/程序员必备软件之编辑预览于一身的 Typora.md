@@ -33,7 +33,7 @@ date: 2018-03-17 16:11:12
 
 进入官网可进行下载，目前 `Mac`、 `Windows` 和 `Linux` 都有对应的版本，当然也有详细的使用介绍。
 
-![mage-20180317145000](http://owj4ejy7m.bkt.clouddn.com/2018-03-17-image-201803171450002.png)
+![mage-20180317145000](http://xiaweizi.top/2018-03-17-image-201803171450002.png)
 
 ##  基本使用
 
@@ -41,27 +41,27 @@ date: 2018-03-17 16:11:12
 
 #### 标题
 
-![标题](http://owj4ejy7m.bkt.clouddn.com/2018-03-17-%E6%A0%87%E9%A2%98.gif)
+![标题](http://xiaweizi.top/2018-03-17-%E6%A0%87%E9%A2%98.gif)
 
 #### 特殊样式
 
-![特殊样式](http://owj4ejy7m.bkt.clouddn.com/2018-03-17-%E7%89%B9%E6%AE%8A%E6%A0%B7%E5%BC%8F.gif)
+![特殊样式](http://xiaweizi.top/2018-03-17-%E7%89%B9%E6%AE%8A%E6%A0%B7%E5%BC%8F.gif)
 
 #### 列表
 
-![列表](http://owj4ejy7m.bkt.clouddn.com/2018-03-17-%E5%88%97%E8%A1%A8.gif)
+![列表](http://xiaweizi.top/2018-03-17-%E5%88%97%E8%A1%A8.gif)
 
 #### 代码
 
-![代码](http://owj4ejy7m.bkt.clouddn.com/2018-03-17-%E4%BB%A3%E7%A0%81.gif)
+![代码](http://xiaweizi.top/2018-03-17-%E4%BB%A3%E7%A0%81.gif)
 
 #### 表格
 
-![表格](http://owj4ejy7m.bkt.clouddn.com/2018-03-17-%E8%A1%A8%E6%A0%BC.gif)
+![表格](http://xiaweizi.top/2018-03-17-%E8%A1%A8%E6%A0%BC.gif)
 
 #### 流程图 时序图
 
-![流程图](http://owj4ejy7m.bkt.clouddn.com/2018-03-17-%E6%B5%81%E7%A8%8B%E5%9B%BE.gif)
+![流程图](http://xiaweizi.top/2018-03-17-%E6%B5%81%E7%A8%8B%E5%9B%BE.gif)
 
 相关对应的代码:
 
@@ -117,7 +117,7 @@ SVN---|store the data|sharedrive
 
 或者是直接拷贝粘贴图片到编辑器中也可以：
 
-![截图拷贝](http://owj4ejy7m.bkt.clouddn.com/2018-03-17-%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87.gif)
+![截图拷贝](http://xiaweizi.top/2018-03-17-%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87.gif)
 
 
 
@@ -129,19 +129,19 @@ SVN---|store the data|sharedrive
 
 
 
-![mage-20180317155840](http://owj4ejy7m.bkt.clouddn.com/2018-03-17-image-201803171558408.png)
+![mage-20180317155840](http://xiaweizi.top/2018-03-17-image-201803171558408.png)
 
 首先点击 **浏览所有版本**，即可以看到历史的版本：
 
-![mage-20180317160334](http://owj4ejy7m.bkt.clouddn.com/2018-03-17-image-201803171603346.png)
+![mage-20180317160334](http://xiaweizi.top/2018-03-17-image-201803171603346.png)
 
 #### 主题更换
 
 **Typora** 支持各种主题的更换
 
-![mage-20180317160756](http://owj4ejy7m.bkt.clouddn.com/2018-03-17-image-201803171607569.png)
+![mage-20180317160756](http://xiaweizi.top/2018-03-17-image-201803171607569.png)
 
-![主题更换](http://owj4ejy7m.bkt.clouddn.com/2018-03-17-%E4%B8%BB%E9%A2%98%E6%9B%B4%E6%8D%A2.gif)
+![主题更换](http://xiaweizi.top/2018-03-17-%E4%B8%BB%E9%A2%98%E6%9B%B4%E6%8D%A2.gif)
 
 ## 总结
 

@@ -6,7 +6,7 @@ tags:
   - 跨平台
 categories:
   - Flutter
-abbrlink: a19c
+abbrlink: f7f8
 date: 2020-08-29 19:11:12
 ---
 
@@ -14,7 +14,7 @@ date: 2020-08-29 19:11:12
 
 ### 前言
 
-最近利用两周的周末和下班时间入坑了 Flutter，简单的学了一下基础的 widget 后，就准备拿一个项目练练手。什么项目既实用，有不乏技术，当时是写一个天气 app 了，因此 **简悦天气** 因此诞生。
+最近利用两周的周末和下班时间入坑了 Flutter，简单的学了一下基础的 widget 后，就准备拿一个项目练练手。什么项目既实用，有不乏技术，当时是写一个天气 app 了，因此 [**简悦天气**](https://github.com/xiaweizi/SimplicityWeather) 因此诞生。
 
 *简约不简单，丰富不复杂*
 

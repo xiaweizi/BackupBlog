@@ -24,11 +24,12 @@ date: 2020-08-29 19:11:12
 
 ### 体验
 
-点击[下载链接](http://xiaweizi.top/SimplicityWeather-1_7.apk)下载
+点击[下载链接](http://xiaweizi.top/SimplicityWeather-2_0.apk)下载
 
 或者直接扫描二维码抢先体验
 
-![二维码](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8211d282480d41928cbde9c9616aab1d~tplv-k3u1fbpfcp-zoom-1.image)
+![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6d6af5e8c51b40799b47776130f86d62~tplv-k3u1fbpfcp-zoom-1.image)
+
 
 ### 功能介绍
 
@@ -61,11 +62,11 @@ date: 2020-08-29 19:11:12
 
 目前支持多达 **12** 种不同的天气类型，其中包括：晴、多云、阴天、小中大雨、小中大雪、雾、霾、浮尘，为了更好，在关于页面有上角添加切换天气类型的入口，实时查看不同气象下不同的背景效果。下面用一种 GIF 图展示效果，鉴于 GIF 本身的局限，可能会模糊低帧，请下载 apk 自行体验。
 
-![图4](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c4bed9a5947046ddbe66322e59b7de2d~tplv-k3u1fbpfcp-zoom-1.image)
+![图4](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b9b3ed513c8348ddbbdc0a538038dfdd~tplv-k3u1fbpfcp-zoom-1.image)
 
-![图5](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/37cf495377b146cc9212cc49853c5591~tplv-k3u1fbpfcp-zoom-1.image)
+![图5](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d86dcaaafb0b4e7ba05be8fbe0bb84e4~tplv-k3u1fbpfcp-zoom-1.image)
 
-![图6](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/478eccd10f79400690ca115b8c764be5~tplv-k3u1fbpfcp-zoom-1.image)
+![图6](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/252455b3876d4788bf7eec42eea63282~tplv-k3u1fbpfcp-zoom-1.image)
 
 ### 技术介绍
 
